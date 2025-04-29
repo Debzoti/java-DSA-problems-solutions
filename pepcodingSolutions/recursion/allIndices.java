@@ -12,23 +12,29 @@ public class allIndices {
 
    static int[] allIndicesInArray(int[] arr, int x, int idx, int size ){
 
-
     //base case
-    if(idx == arr.length){
-        if (size == 0) {
+    if(idx == arr.length) {
+        //if size is 0 then return empty array
+        if(size == 0) {
             return new int[0];
         }
-        return new int[size];
+        //create an array of size
+        int [] base = new int[size];
+        return base;
     }
 
-    //faith
-    if (arr[idx]==x) {
-        int[] ans = allIndicesInArray(arr, x, idx+1, size+1);
-        ans[size]= idx;
-        return ans;
-    } else {
-       int[] ans = allIndicesInArray(arr, x, idx+1, size);
-       return ans;
+    //incr the size 
+    if(arr[idx]==x) {
+        size++;
     }
+    //faith
+    int [] res = allIndicesInArray(arr, x, idx+1, size);
+
+    //adding index in the array
+    if(arr[idx]==x) {
+        res[size-1] = idx;
+    }
+    return res;
+
    }
 }
