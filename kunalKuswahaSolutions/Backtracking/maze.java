@@ -9,11 +9,11 @@ public class maze {
     // System.out.println(showPathWithDiagonal("", 3, 3)); // show all the paths
     boolean[][] board = {
         {true, true, true},
-        {true, false, true},
+        {true, true, true},
         {true, true, true}
     };
 
-    System.out.println(mazeWIthObstacles(board, 0, 0, ""));
+    System.out.println(allPath(board, 0, 0, ""));
     }
 
     static int mazePath(int row, int col, int path) {
@@ -102,4 +102,49 @@ public class maze {
             }
             return list; // return the list
     }
+
+
+    // ayoo backtracking here 
+    static ArrayList<String> allPath(boolean[][] board, int r, int c, String path){
+        //base 
+        if( r== board.length -1 && c == board[0].length -1){
+            ArrayList<String> list = new ArrayList<>();
+            list.add(path);
+            return list;
+             }
+    
+             if(!board[r][c]){
+                return new ArrayList<>(); // return empty list if the cell is blocked
+             }
+                ArrayList<String> list = new ArrayList<>();
+                //make thevisited ones false
+                board[r][c] = false;
+
+
+                //down
+                if (r< board.length - 1) {
+                    list.addAll(allPath(board, r + 1, c, path + "D")); // down
+                    
+                }
+                
+                //right
+                if (c < board[0].length - 1) {
+                    list.addAll(allPath(board, r, c + 1, path + "R")); // right
+                }
+
+                //up
+                if (r > 0) {
+                    list.addAll(allPath(board, r - 1, c, path + "U")); // up
+                }
+                //left
+                if (c>0) {
+                    list.addAll(allPath(board, r, c - 1, path + "L")); // left
+                }
+
+                //make thevisited ones true for abpve functon calls
+                board[r][c] = true;
+                return list; // return the list
+    }
+
+
 }
