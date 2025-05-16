@@ -30,6 +30,8 @@ public class matrixPath {
                 return new ArrayList<>(); // return empty list if the cell is blocked
              }
                 ArrayList<String> list = new ArrayList<>();
+
+
                 //make thevisited ones false
                 board[r][c] = false;
                 matrix[r][c] = step;
@@ -56,7 +58,9 @@ public class matrixPath {
 
                 //make thevisited ones true for abpve functon calls
                 board[r][c] = true;
-                matrix [r][c] = 0;
+                matrix [r][c] = 0; // changing the mark cells back to 0 for further recyrsip0n calls 
+
+
                 return list; // return the list
     }
 
