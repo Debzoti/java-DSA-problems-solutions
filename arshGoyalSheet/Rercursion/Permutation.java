@@ -6,9 +6,26 @@ import java.util.List;
 public class Permutation {
     public static void main(String[] args) {
         int[] nums = {1,2,3};
-        System.out.println( permutationIterative(nums));
+        System.out.println( permutationRecursive(nums));
     }
 
+    static List<List<Integer>>  permutationRecursive(int[] nums){
+
+        //recursive logic
+        //base case
+        List<List<Integer>> ans = new ArrayList<>();
+        solve(nums,0,ans);
+        return ans;
+    }
+    static void solve(int[] nums , int start, List<List<Integer>> list){
+
+        //base case
+
+        for (int num : nums) {
+            \
+        }
+    }
+    
     static List<List<Integer>>  permutationIterative(int[] arr){
 
         //iterative logic
@@ -29,6 +46,5 @@ public class Permutation {
         }
         return outerList;
     }
-    
-    
+
 }
