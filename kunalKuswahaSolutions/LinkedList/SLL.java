@@ -168,10 +168,7 @@ public class SLL {
         size--;
     }
 
-    //sort linked list using merge sort
-    public void mergeSort(){
-        
-    }
+    
 
 
     //reverse linked list recursively
