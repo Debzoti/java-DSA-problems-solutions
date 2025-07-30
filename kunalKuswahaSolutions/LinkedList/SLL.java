@@ -14,8 +14,8 @@ public class SLL {
 
 
     //props
-    private Node head;
-    private Node tail;
+    public Node head;
+    public Node tail;
     public int size;
 
     //insert at head
@@ -111,7 +111,42 @@ public class SLL {
         size--;
     }
 
+    //insert using rescusrion
+    public void insertRec(int index, int val){
+        head = find(val, index, head);
+        if (tail == null) {
+            tail = head; // If the list was empty, tail should also point to the new node
+        }
+        size++;
+        if (head == null) {
+            size++;
+        }
+        if (index < 0 || index > size) {
+            System.out.println("Index out of bounds");
+            return;
+        }
+        if (index == 0) {
+            insertFirst(val);
+            return;
+        }
+        if (index == size) {
+            insertLast(val);
+            return;
+        }
 
+    }
+
+    private Node find(int val, int index, Node curr){
+        //base
+        if(index == 0){
+            Node temp = new Node(val);
+            temp.next=curr;
+            return temp;
+        }
+
+        Node node = find(val, index--, curr.next);
+        return node;
+    }
 
     //delet at index
     public void delete(int index){
@@ -132,6 +167,21 @@ public class SLL {
         prev.next = prev.next.next;
         size--;
     }
+
+    //sort linked list using merge sort
+    public void mergeSort(){
+        
+    }
+
+
+    //reverse linked list recursively
+
+
+    //reverse linked list 
+
+
+
+
 
     //display
     public void display() {

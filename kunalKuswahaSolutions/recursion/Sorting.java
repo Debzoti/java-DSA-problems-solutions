@@ -14,18 +14,16 @@ public class Sorting {
 
     static void bubble(int[] arr, int r, int c){
 
-
         //base case
         if(r==0) return;
-
-
+        //if we have traversed the whole row
         if(r>c){
             if (arr[c]>arr[c+1]) {
-                swap(arr,c,c+1);
+                swap(arr,c,c+1); // sending the larger element to the right
             }
-            bubble(arr, r, c+1);
+            bubble(arr, r, c+1); // move to the next column
         }else{
-            bubble(arr, r-1, 0);
+            bubble(arr, r-1, 0); //move the next row
         }
     }
 

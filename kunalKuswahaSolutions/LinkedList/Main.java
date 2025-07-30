@@ -2,7 +2,6 @@ package LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        // SLL list = new SLL();
         // // You can add methods to manipulate the linked list here
         // // For example, list.add(5), list.remove(3), etc.
         // list.insertFirst(2);
@@ -32,5 +31,17 @@ public class Main {
         // dll.delete(2); // Delete the node at index 2
         // dll.display(); // Output: 17 <-> 5 <-> 60 <->
         // dll.displayReverse();
+        
+        
+        // SLL list = new SLL();
+        // list.insertFirst(2);
+        // list.insertFirst(1);
+        // list.insertFirst(5);
+        // list.insertFirst(17);
+        // list.insertFirst(55);
+        // list.insertLast(100);
+        // list.display();
+        // list.insert(10, 2);
+        // list.display(); // Output: 17 -> 5 -> 10 -> 1 -> 2 -> 55 -> 100 -> null
     }
 }
