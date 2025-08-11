@@ -1,0 +1,448 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "NKnights",
+            "request": "launch",
+            "mainClass": "Backtracking.NKnights",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "NQueens",
+            "request": "launch",
+            "mainClass": "Backtracking.NQueens",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "matrixPath",
+            "request": "launch",
+            "mainClass": "Backtracking.matrixPath",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "maze",
+            "request": "launch",
+            "mainClass": "Backtracking.maze",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "LinkedList.BubbleSort",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "HappyNumber",
+            "request": "launch",
+            "mainClass": "LinkedList.HappyNumber",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCycleII",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedListCycleII",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LinkedList.Main",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.MergeTwoLinkedList",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MiddleLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.MiddleLinkedList",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "LinkedList.RemoveDuplicates",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "LinkedList.Sorting",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "ContainingWater",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.ContainingWater",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "EqualArrayElemnts",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.EqualArrayElemnts",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "JumpGame",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.JumpGame",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.ThreeSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Trappingwater",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.Trappingwater",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "buysellStock",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.buysellStock",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "findDuplicate",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.findDuplicate",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "removeDuplicateInSortedArray",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.removeDuplicateInSortedArray",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "subarrSumDIvisiblebyK",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.subarrSumDIvisiblebyK",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "BeautifulArrangement",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.BeautifulArrangement",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.CombinationSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSumII",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.CombinationSumII",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "CountAndSay",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.CountAndSay",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "LetterTile",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.LetterTile",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Lexico",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.Lexico",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "PalindromePartitioning",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.PalindromePartitioning",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "PartitionKSubsets",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.PartitionKSubsets",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "PermutationII",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.PermutationII",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "WordSearch",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.WordSearch",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "largestInKSwaps",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.largestInKSwaps",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Anagrams",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Hashmaps.Anagrams",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "CountFrequency",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Hashmaps.CountFrequency",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Duplicates",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Hashmaps.Duplicates",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "FfirstUniqChar",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Hashmaps.FfirstUniqChar",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Hashmaps.TwoSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "AddBinary",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Maths.AddBinary",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "GenerateParenthesis",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.GenerateParenthesis",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.Permutation",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "PeakElemnt",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Searching.PeakElemnt",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MaxHistogram",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Stack.MaxHistogram",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "NGR",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Stack.NGR",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElement",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Stack.NextGreaterElement",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWord",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.ReverseWord",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "SimplifyPath",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.SimplifyPath",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "allIndices",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.allIndices",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "dispArray",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.dispArray",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "dispMax",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.dispMax",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "firstOccurence",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.firstOccurence",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "lastOccurence",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.lastOccurence",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "powerLinear",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.powerLinear",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "towerofhanoi",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.towerofhanoi",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "zigzag",
+            "request": "launch",
+            "mainClass": "pepcodingSolutions.recursion.zigzag",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Permutations",
+            "request": "launch",
+            "mainClass": "recursion.Permutations",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "recursion.QuickSort",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Sorting(1)",
+            "request": "launch",
+            "mainClass": "recursion.Sorting",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Subsequences",
+            "request": "launch",
+            "mainClass": "recursion.Subsequences",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Subset",
+            "request": "launch",
+            "mainClass": "recursion.Subset",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "recursion.Triangle",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "keypadNum",
+            "request": "launch",
+            "mainClass": "recursion.keypadNum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        }
+    ]
+}
