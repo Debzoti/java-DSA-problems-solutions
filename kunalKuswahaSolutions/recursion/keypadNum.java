@@ -9,6 +9,8 @@ public class keypadNum {
         System.out.println(keypad("","23"));
         //keypad("","12");
     }
+
+    // this code doesnot handle 7 and 9 as 4 letters issue
     static ArrayList<String> keypad(String p, String up){ // (''. '12')
         //base case
         if(up.isEmpty()){
@@ -16,6 +18,7 @@ public class keypadNum {
             list.add(p); // add the string to the list
             return list; // return the list
         }
+        
 
         ArrayList<String> list = new ArrayList<>();
 

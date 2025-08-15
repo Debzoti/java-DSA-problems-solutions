@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PascalsTrinagle",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.PascalsTrinagle",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "SubarraySum",
             "request": "launch",
             "mainClass": "arshGoyalSheet.SlidingWindow.SubarraySum",
