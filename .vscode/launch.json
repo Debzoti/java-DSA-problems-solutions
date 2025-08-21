@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveAdjacentDuplicates",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.RemoveAdjacentDuplicates",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "PartitionEqualSubsetSum",
             "request": "launch",
             "mainClass": "arshGoyalSheet.DP.PartitionEqualSubsetSum",
