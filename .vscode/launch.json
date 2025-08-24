@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringPermutations",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.StringPermutations",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "SortArray",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Rercursion.SortArray",
