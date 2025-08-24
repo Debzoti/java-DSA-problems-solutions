@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortArray",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.SortArray",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "SubsetSum",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.SubsetSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "RemoveAdjacentDuplicates",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Rercursion.RemoveAdjacentDuplicates",
