@@ -3,53 +3,64 @@ package arshGoyalSheet.Stack;
 import java.util.Stack;
 
 public class MinStack {
-    private Stack<Integer> mainStack ;
-    private Stack <Integer> minStack;
+    Stack<Integer> s ;
+    int min;
+
     public MinStack() {
-
-        mainStack = new Stack<>();
-        minStack = new Stack<>();
-
-        //queries in form: Input: q = 7, queries = [[1, 2], [1, 3], [3], [2], [4], [1, 1], [4]]
-
-        //handle queries
-        // 1. Push x onto the stack.
-        // 2. Pop the top element from the stack.
-        // 3. Get the top element of the stack.
-        // 4. Get the minimum element in the stack.
+        s = new Stack<>();
+        min = Integer.MAX_VALUE;
     }
 
     // Add an element to the top of Stack
     public void push(int x) {
-        // code here
-        mainStack.push(x);
-        if (minStack.isEmpty() || x <= minStack.peek()) {
-            minStack.push(x);
+        if (s.isEmpty()) {
+            s.push(x);
+            min = x;
         }else{
-            minStack.push(minStack.peek());
+            if (x >= min) {
+                s.push(x);
+            } else {
+                s.push(2*x - min);
+                min = x;
+            }
         }
-        
+
     }
 
     // Remove the top element from the Stack
     public void pop() {
-        
-        // code here
-        mainStack.pop();
-        minStack.pop();
+        if (s.isEmpty()) {
+            return;
+        }
+
+        if (s.peek() < min) {
+            min = 2*min - s.peek();
+            s.pop();
+        } else {
+            s.pop();
+        }
     }
 
     // Returns top element of the Stack
         
-    public int peek() {
+    public int top() {
         // code here
-        return mainStack.peek();
+        if (s.isEmpty()) {
+            return -1;
+        }
+
+        if (s.peek() < min) {
+            return 2*min - s.peek();
+        }
+
+        return s.peek();
     }
 
         
     // Finds minimum element of Stack
     public int getMin() {
         // code here
-        return minStack.peek();
+        return min;
+        
     }
 }

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RomanToInteger",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.RomanToInteger",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "RabinKarp",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.RabinKarp",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicateLetters",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Stack.RemoveDuplicateLetters",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "StringPermutations",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Rercursion.StringPermutations",
