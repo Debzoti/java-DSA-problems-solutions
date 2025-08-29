@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestCommonPrefix",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.LargestCommonPrefix",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "RomanToInteger",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Strings.RomanToInteger",
