@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthSymbolGrammer",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.KthSymbolGrammer",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "deleteMidofStack",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Stack.deleteMidofStack",
