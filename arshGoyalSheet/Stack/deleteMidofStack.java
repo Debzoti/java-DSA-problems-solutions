@@ -23,7 +23,7 @@ public class deleteMidofStack {
             return;
         }
         int k = (s.size() / 2) +1;
-
+        
         solve(s,k);
     }
 
