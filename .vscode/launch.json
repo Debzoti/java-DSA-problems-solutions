@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "deleteMidofStack",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Stack.deleteMidofStack",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "LongestPalindromeSubstring",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Strings.LongestPalindromeSubstring",
