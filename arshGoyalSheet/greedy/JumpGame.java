@@ -1,4 +1,4 @@
-package arshGoyalSheet.Arrays;
+package arshGoyalSheet.greedy;
 
 public class JumpGame {
     public static void main(String[] args) {
