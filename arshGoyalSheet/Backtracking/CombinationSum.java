@@ -6,9 +6,9 @@ import java.util.List;
 
 public class CombinationSum {
     public static void main(String[] args) {
-        int[] arr = {8,7,4,3};
-        int target = 11;
-         Arrays.sort(arr);
+        int[] arr = {2,7,6,5};
+        int target = 16;
+        Arrays.sort(arr);
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> path =new ArrayList<>();
         find(arr,target,0,0,path,res);

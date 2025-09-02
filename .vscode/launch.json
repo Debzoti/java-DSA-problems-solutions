@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lemonadeChange",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.lemonadeChange",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "AssignCookies",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.AssignCookies",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "RotateArray",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Arrays.RotateArray",
