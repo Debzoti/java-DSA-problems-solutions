@@ -8,7 +8,7 @@ public class LongestPalindromeSubstring {
         System.out.println(longestPalindrome(str));
     }
 
-    public static  String longestPalindrome(String s) {
+    public  static  String longestPalindrome(String s) {
         int start = 0;
         int maxLen = Integer.MIN_VALUE;
         int left =0, right =0;

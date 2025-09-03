@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BreedCounting",
+            "request": "launch",
+            "mainClass": "codevita.Usaco.silver.prefixSum.BreedCounting",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "staticRangeSum",
+            "request": "launch",
+            "mainClass": "codevita.Usaco.silver.staticRangeSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "JumpGameII",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.JumpGameII",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "SJF",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.SJF",
