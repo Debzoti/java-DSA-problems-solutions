@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubArraySumII",
+            "request": "launch",
+            "mainClass": "codevita.Usaco.silver.prefixSum.SubArraySumII",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "BreedCounting",
             "request": "launch",
             "mainClass": "codevita.Usaco.silver.prefixSum.BreedCounting",
