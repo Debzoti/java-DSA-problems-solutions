@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JobSequencing",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.JobSequencing",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "SubseqSumToSeven",
             "request": "launch",
             "mainClass": "codevita.Usaco.silver.prefixSum.SubseqSumToSeven",
