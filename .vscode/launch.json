@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GasStation",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.GasStation",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "JobSequencing",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.JobSequencing",
