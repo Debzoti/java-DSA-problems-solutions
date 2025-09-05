@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CelebrityProblem",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Stack.CelebrityProblem",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "GasStation",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.GasStation",
