@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmallestSubsetwithGreaterSum",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.SmallestSubsetwithGreaterSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MinimizeSumOfProducts",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.MinimizeSumOfProducts",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "CandyStore",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.CandyStore",
