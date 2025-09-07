@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IntegerSumZero",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Maths.IntegerSumZero",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MinOperations",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Maths.MinOperations",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "NMeetings",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.NMeetings",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "SmallestSubsetwithGreaterSum",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.SmallestSubsetwithGreaterSum",
