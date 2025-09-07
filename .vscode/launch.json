@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinOps",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.MinOps",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "IntegerSumZero",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Maths.IntegerSumZero",
