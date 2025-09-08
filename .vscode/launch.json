@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConvertIntegerToSUmoftwo",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Maths.ConvertIntegerToSUmoftwo",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "InserIntervals",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.InserIntervals",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "NonOverlappingIntervals",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.NonOverlappingIntervals",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "MinOps",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Strings.MinOps",

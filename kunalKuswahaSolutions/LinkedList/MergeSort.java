@@ -8,9 +8,17 @@ public class MergeSort {
         }
 
         ListNode mid = middleNode(head);
-        ListNode left = sort(head);
-        ListNode right  = sort(mid);
 
+        //need to bresk this into 2 lists so bresk the mid 
+        ListNode left = head;
+        ListNode right  = mid.next;
+        mid.next = null;
+
+
+        left = sort(left);
+        right = sort(right);
+
+        
         return mergeTwoLists(left, right);
     }
 
@@ -19,33 +27,33 @@ public class MergeSort {
             MergeSort ms = new MergeSort();
             ListNode dummy = ms.new ListNode();;
             ListNode res =dummy;
-   
-           while(list1 != null && list2 != null){
-               if (list1.val > list2.val) {
-                   res.next = list2; 
-                   list2 = list2.next;
-               }else{
-                   res.next = list1; 
-                   list1 = list1.next;
-               }
-               res = res.next;
-           }
-   
-           //adde extra elemennts on both lists
-           while(list1 != null){
+    
+            while(list1 != null && list2 != null){
+                if (list1.val > list2.val) {
+                    res.next = list2; 
+                    list2 = list2.next;
+                }else{
+                    res.next = list1; 
+                    list1 = list1.next;
+                }
+                res = res.next;
+            }
+    
+            //adde extra elemennts on both lists
+                while(list1 != null){
                 res.next = list1; 
                 list1 = list1.next;
                 res = res.next;
-           }
-   
-           while (list2 != null) {
+            }
+
+            while (list2 != null) {
                 res.next = list2; 
-                    list2 = list2.next;
-                   res = res.next;
-           }
-           
-           return dummy.next;
-       }
+                        list2 = list2.next;
+                    res = res.next;
+            }
+            
+            return dummy.next;
+        }
         
     //get mid node
     public static ListNode middleNode(ListNode head) {
