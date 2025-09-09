@@ -18,6 +18,10 @@ public class JumpGameII {
                 farthest+=Math.max(farthest, i + nums[i]);
             }
 
+           if (nums[farthest] == 0 && farthest < nums.length - 1) {
+                return -1;
+            
+           }
             if(farthest == r){
                 return -1;
             }
