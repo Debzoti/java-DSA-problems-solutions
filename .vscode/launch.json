@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minPlatforms",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.minPlatforms",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "LargestInOneSwap",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.LargestInOneSwap",
