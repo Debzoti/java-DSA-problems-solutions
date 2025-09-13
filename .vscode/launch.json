@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinCostToCutABoard",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.greedy.MinCostToCutABoard",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "MinimizeTheHeigths",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.MinimizeTheHeigths",

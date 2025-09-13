@@ -19,7 +19,7 @@ public class MinimizeTheHeigths {
             int max = Math.max(arr[i] + k, arr[arr.length - 1] - k);
             diff = Math.min(diff, max - min);
         }
-        
+                
 
         return diff;
     }
