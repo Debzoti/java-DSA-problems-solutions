@@ -7,7 +7,7 @@ public class MinCostToCutABoard {
         int[] X = {1, 1, 1};
         int[] Y = {1, 1, 1};
         System.out.println(minCost(4,4,X, Y));
-    }
+    }u
 
     public static int minCost(int n, int m, int[] x, int[] y) {
         // code here
@@ -31,20 +31,21 @@ public class MinCostToCutABoard {
                 hSegs++;
                 j--;
             }
-
         }
+
+
         //if anythimng remins adds up to coast
         while (i >= 0) {
             cost+= x[i] * hSegs;
             i--;
             vSegs++;
         }
-
         while (j >= 0) {
             cost+= y[j] * vSegs;
             j--;
             hSegs++;
         }
+
         return cost;
     }
 }
