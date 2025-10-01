@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxIndex",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.maxIndex",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "TasksAndDeadlines",
+            "request": "launch",
+            "mainClass": "codevita.Usaco.silver.greedy.TasksAndDeadlines",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Apartments",
+            "request": "launch",
+            "mainClass": "codevita.Usaco.silver.greedy.Apartments",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "MinCostToCutABoard",
             "request": "launch",
             "mainClass": "arshGoyalSheet.greedy.MinCostToCutABoard",

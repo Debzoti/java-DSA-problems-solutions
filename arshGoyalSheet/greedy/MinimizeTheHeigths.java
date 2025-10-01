@@ -10,6 +10,7 @@ public class MinimizeTheHeigths {
 
     public static  int getMinDiff(int[] arr, int k) {
         // code here
+        
         Arrays.sort(arr);
         int initDiff =arr[arr.length -1] - arr[0];
         int diff = initDiff;
