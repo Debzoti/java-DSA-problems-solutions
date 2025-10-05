@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PhoneDIgitWords",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.PhoneDIgitWords",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "WaterBottlesII",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Maths.WaterBottlesII",
