@@ -31,7 +31,7 @@ public class maze {
     static ArrayList<String> showPath(String p, int r, int c){
         // base 
         if(r == 1 && c == 1){
-           ArrayList<String> list = new ArrayList<>();
+            ArrayList<String> list = new ArrayList<>();
             list.add(p); // add the string to the list
             return list;
         }
@@ -53,7 +53,7 @@ public class maze {
     static ArrayList<String> showPathWithDiagonal(String p, int r, int c){
         // base 
         if(r == 1 && c == 1){
-           ArrayList<String> list = new ArrayList<>();
+            ArrayList<String> list = new ArrayList<>();
             list.add(p); // add the string to the list
             return list;
         }
@@ -64,7 +64,7 @@ public class maze {
         if(r > 0){
             list.addAll(showPathWithDiagonal(p + "D", r - 1, c)); // down
         }
-        //down
+        //down                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
         if(c > 0){
            list.addAll(showPathWithDiagonal(p + "R", r, c - 1)); // right
         }
@@ -77,17 +77,17 @@ public class maze {
 
 
     static ArrayList<String> mazeWIthObstacles (boolean[][] board, int r, int c, String path){
-
+        
     //base case
     if( r== board.length -1 && c == board[0].length -1){
         ArrayList<String> list = new ArrayList<>();
         list.add(path);
         return list;
-         }
+        }
 
-         if(!board[r][c]){
+        if(!board[r][c]){
             return new ArrayList<>(); // return empty list if the cell is blocked
-         }
+        }
             ArrayList<String> list = new ArrayList<>();
 
             //down
@@ -111,11 +111,11 @@ public class maze {
             ArrayList<String> list = new ArrayList<>();
             list.add(path);
             return list;
-             }
+            }
     
-             if(!board[r][c]){
+            if(!board[r][c]){
                 return new ArrayList<>(); // return empty list if the cell is blocked
-             }
+            }
                 ArrayList<String> list = new ArrayList<>();
                 //make thevisited ones false
                 board[r][c] = false;

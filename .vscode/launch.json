@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "knightsTour",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.knightsTour",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "RatInAMaze",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Backtracking.RatInAMaze",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "PhoneDIgitWords",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Backtracking.PhoneDIgitWords",
