@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KMP",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.KMP",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "PairFreinds",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.PairFreinds",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MaxBottleSum",
+            "request": "launch",
+            "mainClass": "NQT.PYQs.MaxBottleSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MaxBottleSum",
+            "request": "launch",
+            "mainClass": "MaxBottleSum",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "Subset",
+            "request": "launch",
+            "mainClass": "kunalKuswahaSolutions.recursion.Subset",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "FindAllFactorsOfPositiveNumber",
+            "request": "launch",
+            "mainClass": "NQT.Maths.FindAllFactorsOfPositiveNumber",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "NQT.Maths.palindrome",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "FactorialWithoutMulandDIv",
+            "request": "launch",
+            "mainClass": "NQT.PYQs.FactorialWithoutMulandDIv",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "CountPairsDIvBy2",
+            "request": "launch",
+            "mainClass": "NQT.PYQs.CountPairsDIvBy2",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "GroupAnagrams",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Strings.GroupAnagrams",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "SumOfFibonacci",
+            "request": "launch",
+            "mainClass": "NQT.Maths.SumOfFibonacci",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "SumOfFibonacci",
+            "request": "launch",
+            "mainClass": "SumOfFibonacci",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "knightsTour",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Backtracking.knightsTour",

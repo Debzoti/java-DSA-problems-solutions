@@ -25,7 +25,7 @@ public class Subset {
             //traverese and addd the number to the existing subsets 
             //with cloning the previous memebers
             for (int i = 0; i < n; i++) {
-                List<Integer> innerList = new ArrayList<>(outerList.get(i));
+                List<Integer> innerList = new ArrayList<>(outerList.get(i)); //thtas how you clone
                 innerList.add(number);
                 outerList.add(innerList);
 
@@ -51,7 +51,7 @@ public class Subset {
 
             //check if duplicate or not 
             if (i>0 && nums[i]==nums[i-1]) {
-                                                                                              start = end + 1;
+                start = end + 1;
             }
  
             end = outerList.size()-1;
