@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MIssingAndRepeating",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Arrays.MIssingAndRepeating",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "KMP",
             "request": "launch",
             "mainClass": "arshGoyalSheet.Strings.KMP",
