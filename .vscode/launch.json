@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountingBits",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.CountingBits",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "CountPermutations",
             "request": "launch",
             "mainClass": "arshGoyalSheet.DP.CountPermutations",
