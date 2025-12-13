@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinSuffixFlips",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.MinSuffixFlips",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MinKBitFlips",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.MinKBitFlips",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MinBitFlipToConvertNumber",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.MinBitFlipToConvertNumber",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "FindDiff",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.FindDiff",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "CountingBits",
             "request": "launch",
             "mainClass": "arshGoyalSheet.BitManipulation.CountingBits",
