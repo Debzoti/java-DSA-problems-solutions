@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SingleNumberIII",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.SingleNumberIII",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "SingleNumberII",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.SingleNumberII",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "MinSuffixFlips",
             "request": "launch",
             "mainClass": "arshGoyalSheet.BitManipulation.MinSuffixFlips",
