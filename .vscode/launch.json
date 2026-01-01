@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProductArray",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.PrefixSum.ProductArray",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "MaxScoreSplit",
             "request": "launch",
             "mainClass": "arshGoyalSheet.PrefixSum.MaxScoreSplit",
