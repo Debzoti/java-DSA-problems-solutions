@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxScoreSplit",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.PrefixSum.MaxScoreSplit",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "MaxXORSubarray",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.BitManipulation.MaxXORSubarray",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "EliminationGame",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.EliminationGame",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
+            "name": "JosephusProblem",
+            "request": "launch",
+            "mainClass": "arshGoyalSheet.Rercursion.JosephusProblem",
+            "projectName": "java-DSA-problems-solutions_c4e3e17a"
+        },
+        {
+            "type": "java",
             "name": "GreatXOR",
             "request": "launch",
             "mainClass": "arshGoyalSheet.BitManipulation.GreatXOR",
